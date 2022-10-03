@@ -15,11 +15,11 @@ export const SearchPlayer: FC<SearchPlayerProps> = (props: SearchPlayerProps) =>
   return (
     <section className="search">
       <div className="search__input">
-        <Input placeholder="Ingresar Nombre" type="text" />
+        <Input placeholder="Buscar por nombre" type="text" />
       </div>
       <div className="search__containerButton">
         <button className="search__button" onClick={newPlayer}>
-          Agragar
+          Agregar
         </button>
       </div>
     </section>

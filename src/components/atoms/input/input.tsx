@@ -1,5 +1,5 @@
 import { FC, InputHTMLAttributes } from 'react'
-import './Input.scss'
+import './input.scss'
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   errorMessage?: string

@@ -1,8 +1,11 @@
+body {
+    text-align: left;
+    }
 .search{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:20px 190px
+    margin:20px 20px 20px 20px;
 
     &__input{
         display: flex;
@@ -11,6 +14,8 @@
         padding-left: 10px;
         font-size: 20px;
         width: 50%;
+        border-radius:10px;
+  
     }
     &__select{
         display: flex;
@@ -18,8 +23,14 @@
         width: 50%;
     }
     &__button{
-        width:25%;
-        color:antiquewhite;
-        font-size: 18px;
+        justify-content:center;
+        background:gray;
+        color: white;
+        border-radius:10px;
+        border: 1px solid gray;
+        width: 100%;
+        padding:8px;
+
+
     }
 }

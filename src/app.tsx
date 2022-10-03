@@ -4,8 +4,7 @@ import { Home } from '../src/components/Pages/home/home'
 function App() {
   return (
     <div>
-      <Home/>
-
+      <Home />
     </div>
   )
 }
