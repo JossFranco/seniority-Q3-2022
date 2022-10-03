@@ -1,9 +1,4 @@
-export interface ICategory {
-  id: string
-  description: string
-}
-
-export interface Players {
+export interface Player {
   firstName: string
   lastName: string
   image: string
@@ -16,5 +11,5 @@ export interface Players {
 
 export interface AllPlayers {
   count: number
-  items: Players[]
+  items: Player[]
 }

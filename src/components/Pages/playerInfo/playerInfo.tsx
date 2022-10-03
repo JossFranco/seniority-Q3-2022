@@ -1,4 +1,4 @@
-import { Button } from '../../atoms/button'
+/* import { Button } from '../../atoms/button'
 import { DataPlayers } from '../../components/moleculas/dataPlayers/dataPlayers'
 import { Players } from '../../interfaces/interfaces'
 import { FC } from 'react-dom'
@@ -46,3 +46,4 @@ export const PlayerInfo: FC<PlayerInfoProps> = (props: PlayerInfoProps) => {
     </>
   )
 }
+ */

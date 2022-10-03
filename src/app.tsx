@@ -1,25 +1,13 @@
 import './app.scss'
-import { Routes, Route } from 'react-router-dom'
-import { Home } from './Pages/home/home'
-import { useState } from 'react'
+import { Home } from '../src/components/Pages/home/home'
 
-export default function App() {
-  const navigate = useNavigate()
-  const [playerById, setPlayerById] = useState<Players>({
-    firstName: '',
-    lastName: '',
-    image: '',
-    attack: '',
-    defense: '',
-    skills: '',
-    idAuthor: '',
-    idPosition: ''
-  })
+function App() {
+  return (
+    <div>
+      <Home/>
 
-  return(
-    <Route path = '/' element={<Home
-      navigateFunction={navigate}
-      />}
+    </div>
   )
 }
 
+export default App
